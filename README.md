@@ -1,12 +1,21 @@
-# fresh project
+# runme fresh project
 
-### Usage
-
-Start the project:
+### Start the project
 
 ```
 deno task start
 ```
 
-This will watch the project directory and restart as necessary.
-# fresh-runme
+### Deploy
+
+Install the Deno deploy CLI
+
+```
+deno install --allow-read --allow-write --allow-env --allow-net --allow-run --no-check -r -f https://deno.land/x/deploy/deployctl.ts
+```
+
+Deploy to staging
+
+```
+deployctl deploy --project=admc-fresh-runme main.ts
+```
