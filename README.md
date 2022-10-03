@@ -29,5 +29,5 @@ export DENO_DEPLOY_TOKEN=$DENO_ACCESS_TOKEN
 ## Deploy to staging
 
 ```sh
-deployctl deploy --project=admc-fresh-runme main.ts
+deployctl deploy --project=admc-fresh-runme main.ts --import-map=import_map.json
 ```
