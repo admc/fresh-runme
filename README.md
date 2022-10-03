@@ -1,8 +1,8 @@
 # runme fresh project
 
-A demo project to show off how to use runme
+A demo project to show off how to use runme with a deno fresh project.
 
-## Start the project locally
+## Run the project locally
 
 ```sh
 deno task start

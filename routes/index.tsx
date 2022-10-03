@@ -3,8 +3,10 @@ export default function Home() {
     <div class="bg-black text-white w-full min-h-screen">
       <div class="p-4 mx-auto max-w-screen-xl flex flex-col space-y-16 items-center justify-center">
         <div class="text-center text-7xl">runme 🛸</div>
-        <div class="">
-          <div class="bg-green-500 rounded shadow  px-4 py-1">Install the extension</div>
+        <div>
+          <a href="">
+            <div class="bg-green-500 rounded-sm font-medium px-4 py-1">Install the extension</div>
+          </a>
         </div>
         <div>
           <img
